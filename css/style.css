@@ -241,4 +241,40 @@ nav {
 		opacity: 0;
 	}
 }
+
+#about {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.ab_left {
+	width: 50%;
+	height: 700px;
+	background-color: #2a2525;
+	text-align: right;
+	padding: 150px 100px 100px 100px;
+}
+
+.ab_right {
+	width: 50%;
+	height: 700px;
+	background-color: #3f3837;
+	text-align: left;
+	padding: 150px 100px 100px 100px;
+}
+
+#about .title {
+	color: #fff;
+	font-size: 65px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#about p {
+	color: #fff;
+	line-height: 38px;
+	font-size: 15px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
 
