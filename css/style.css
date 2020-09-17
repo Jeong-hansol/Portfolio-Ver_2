@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
 
 
 * {
@@ -459,3 +460,250 @@ a {
 }
 
 /* Portfolio */
+#portfolio {
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+#portfolio .port_title {
+	font-family: 'Cinzel', serif;
+	font-size: 3.2em;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#portfolio .port_title span {
+	color: red;
+}
+
+#portfolio .swiper-container {
+  width: 80%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#portfolio .swiper-slide {
+  text-align: center;
+  display: flex;
+	flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#portfolio .swiper-slide h1 {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1.8em;
+	line-height: 1.5em;
+}
+
+#portfolio .swiper-slide h1 span {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: .9em;
+}
+
+#portfolio .swiper-slide h3 {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+#portfolio .swiper-slide img {
+	width: 40%;
+	height: 50%;
+}
+
+#portfolio .swiper-slide p img {
+	width: 20px;
+	height: 20px;
+	padding: 3px;
+}
+
+/* Rocket Tracker button */
+#portfolio .pfbtn1 {
+  position: relative;
+	width: 200px;
+	height: 50px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#portfolio .pfbtn1.btn1 .btnBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 50px;
+  background: linear-gradient(-90deg,#fbb6ce -50%,#fed7e2 100%);
+  transition: width 250ms;
+}
+
+#portfolio .pfbtn1.btn1 a {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #000;
+  line-height: 46px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-image: linear-gradient(-90deg,#c76fa5 -50%,#fbb6ce 100%);
+  border-image-slice: 1;
+  transition: all 200ms;
+}
+
+#portfolio .pfbtn1:hover .btnBg {
+	width: 200px;
+}
+
+#portfolio .pfbtn1:hover a {
+	color: #fff;
+}
+
+/* OPPA CAR button */
+#portfolio .pfbtn2 {
+  position: relative;
+  width: 200px;
+  height: 50px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#portfolio .pfbtn2.btn2 .btnBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 50px;
+  background: linear-gradient(-90deg,#000030 -50%,#3658bf 100%);
+  transition: width 250ms;
+}
+
+#portfolio .pfbtn2.btn2 a {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #000;
+  line-height: 46px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-image: linear-gradient(-90deg,#000030 -50%,#3658bf 100%);
+  border-image-slice: 1;
+  transition: all 200ms;
+}
+
+#portfolio .pfbtn2:hover .btnBg {
+	width: 200px;
+}
+
+#portfolio .pfbtn2:hover a {
+	color: #fff;
+}
+
+/* SEIKO button */
+#portfolio .pfbtn3 {
+  position: relative;
+  width: 200px;
+  height: 50px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#portfolio .pfbtn3.btn3 .btnBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 50px;
+  background: linear-gradient(-90deg,#000 -50%,#5d5d5d 100%);
+  transition: width 250ms;
+}
+
+#portfolio .pfbtn3.btn3 a {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #000;
+  line-height: 46px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-image: linear-gradient(-90deg,#000 -50%,#5d5d5d 100%);
+  border-image-slice: 1;
+  transition: all 200ms;
+}
+
+#portfolio .pfbtn3:hover .btnBg {
+	width: 200px;
+}
+
+#portfolio .pfbtn3:hover a {
+	color: #fff;
+}
+
+/* Portfolio 1.0 button */
+#portfolio .pfbtn4 {
+  position: relative;
+  width: 200px;
+  height: 50px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#portfolio .pfbtn4.btn4 .btnBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 50px;
+  background: linear-gradient(-90deg,#2b81e3 -50%,#00bbff 100%);
+  transition: width 250ms;
+}
+
+#portfolio .pfbtn4.btn4 a {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #000;
+  line-height: 46px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-image: linear-gradient(-90deg,#2b81e3 -50%,#00bbff 100%);
+  border-image-slice: 1;
+  transition: all 200ms;
+}
+
+#portfolio .pfbtn4:hover .btnBg {
+	width: 200px;
+}
+
+#portfolio .pfbtn4:hover a {
+	color: #fff;
+}
