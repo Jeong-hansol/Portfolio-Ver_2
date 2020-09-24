@@ -1,4 +1,17 @@
-// swiper
+// 메뉴바 고정
+$(document).ready(function() {
+   		var menu_offset = $('nav').offset();
+   		$(window).scroll(function() {
+     		if ($(document).scrollTop()-600 > menu_offset.top) {
+       			$('nav').addClass('menu-fixed');
+     		} else {
+       			$('nav').removeClass('menu-fixed');
+     		}
+   		});
+});
+
+
+// 이미지 슬라이드
 var swiper = new Swiper('.swiper-container', {
       slidesPerView: 1,
       spaceBetween: 30,
