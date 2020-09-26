@@ -1,3 +1,29 @@
+// AOS 애니메이션 라이브러리
+AOS.init();
+
+// niceScroll(페이지 자동 스크롤)
+jQuery.fn.niceScroll = function() {
+  $(this).click(function(e) {
+    var h = $(this).attr('href'),
+    target;
+
+    if (h.charAt(0) == '#' && h.length > 1 && (target = $(h)).length > 0){
+      var pos = Math.max(target.offset().top, 0);
+      e.preventDefault();
+      $('body,html').animate({
+        scrollTop : pos-70
+      }, 'slow', 'swing');
+    }
+  });
+};
+$('.scroll').niceScroll();
+
+
+$(window).on('load', function () {
+     $("#load").hide();
+}); // loading 되면 이미지 숨기기
+
+
 // 메뉴바 고정
 $(document).ready(function() {
    		var menu_offset = $('nav').offset();
