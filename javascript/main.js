@@ -24,6 +24,23 @@ $(window).on('load', function () {
 }); // loading 되면 이미지 숨기기
 
 
+// Top Button 동작
+var $backToTop = $("#back-top");
+$backToTop.hide();
+
+$(window).on('scroll', function() {
+  if ($(this).scrollTop() > 150) {
+    $backToTop.fadeIn();
+  } else {
+    $backToTop.fadeOut();
+  }
+});
+
+$backToTop.on('click', function(e) {
+  $("html, body").animate({scrollTop: 0}, 500);
+});
+
+
 // 메뉴바 고정
 $(document).ready(function() {
    		var menu_offset = $('nav').offset();
