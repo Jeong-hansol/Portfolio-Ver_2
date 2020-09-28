@@ -49,6 +49,35 @@ a {
 	left: 47%;
 	z-index: 100;
 }
+
+/* Top Button */
+#back-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 13px 17px 13px 17px;
+  margin: 20px;
+  background: #fff;
+	box-shadow: 0 0 5px #BDBDBD;
+	z-index: 1;
+	font-size: 12px;
+	font-weight: 800;
+	text-align: center;
+	color: #8C8C8C;
+	border-radius: 50%;
+}
+
+#back-top span {
+	font-size: 9px;
+	font-weight: 100;
+}
+
+#back-top:hover {
+  cursor: pointer;
+	background: #37302f;
+	box-shadow: none;
+	color: #fff;
+}
 
 #main {
   width: 100%;
