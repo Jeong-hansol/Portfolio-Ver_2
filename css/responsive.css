@@ -1,3 +1,248 @@
+/* media for less than 900 screen */
+@media only screen and (max-width: 900px){
+  * {
+      padding: 0;
+  }
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+  #load img {
+    left: 45%;
+    top: 40%
+  }
+
+  #back-top {
+    padding: 10px 12px 10px 12px;
+    margin: 10px;
+  	font-size: .8em;
+  }
+
+  #back-top span {
+  	font-size: .6em;
+  	font-weight: 400;
+  }
+
+  #home .header_bar,
+  #home .menu_bar,
+  #home .menu-fixed,
+  #home .introducing_img {
+    display: none;
+  }
+
+  #home .main_logo {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+
+  #home .main_container {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #home .introducing .intro {
+    font-size: 1.6em;
+  }
+
+  #home .introducing p {
+    font-size: 2.5em;
+  }
+
+  #home .introducing .inbtn {
+    margin: 0 auto;
+  }
+
+  #home .hamburger-menu {
+    display: block;
+  }
+
+  /* about */
+  #about {
+    flex-direction: column;
+  }
+
+  #about .ab_left {
+    width: 100%;
+    text-align: center;
+    padding: 60px 0 0 0;
+  }
+
+  #about .ab_right {
+    width: 100%;
+    text-align: center;
+    padding: 60px 0 0 0;
+  }
+
+  #about .title {
+    font-size: 3.8em;
+  }
+
+  #about p {
+    line-height: 2.8em;
+    font-size: .8em;
+  }
+
+  /* Certificate */
+  #certificate .ability:before,
+  #certificate .ability:after {	/* 다이아몬드 */
+  	left: 0;
+  	margin-left: .5em;
+    z-index: 9999;
+  }
+
+  #certificate .ableline:before {	/* 중앙선 */
+  	left: 0;
+  	margin-left: .74em;
+    z-index: 9999;
+  }
+
+  #certificate .sub_title {
+    left: 0;
+    margin-left: 1px;
+    font-size: 1.1em;
+    background: transparent;
+  }
+
+  #certificate .ableline {
+    padding-top: 30px;
+  }
+
+  #certificate .ableline-panel {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #certificate .ableline-normal .ableline-panel {
+  	float: none;
+  	position: relative;
+  	text-align: center;
+  }
+
+  #certificate .ableline-inverted .ableline-panel {
+  	float: none;
+    text-align: center;
+  }
+
+  #certificate .ableline-normal .ableline-panel:before,
+  #certificate .ableline-normal .ableline-panel:after,
+  #certificate .ableline-panel .ableline-content:after {
+    display: none;
+  }
+
+  #certificate .ableline-panel .ableline-content h4 {
+    font-size: .9em;
+  }
+
+  /* Portfolio */
+  #portfolio .port_title {
+    font-size: 2.8em;
+  }
+
+  #portfolio .swiper-contents {
+    padding: 0;
+  }
+
+  #portfolio .swiper-container {
+    width: 100%;
+    height: 40em;
+  }
+
+  #portfolio .swiper-slide h1 {
+  	font-size: 1.5em;
+  }
+
+  #portfolio .swiper-slide h3 {
+  	font-size: .95em;
+  }
+
+  #portfolio .swiper-slide img {
+  	width: 350px;
+  	height: 260px;
+  }
+
+  /* View more */
+  #portfolio .morepage .more_cont {
+    width: 95%;
+  }
+
+  #portfolio .morepage .more_cont p {
+    width: 80%;
+    font-size: .8em;
+  }
+
+  #portfolio .morepage .more_cont p:nth-child(3)+a {
+    font-size: .8em;
+  }
+
+  #portfolio .morepage .more_cont h4, .morepage01 .more_cont span, .morepage02 .more_cont span, .morepage03 .more_cont span, .morepage04 .more_cont span {
+    font-size: .7em;
+  }
+
+  #portfolio .morepage .more_cont .mobile_img img {
+    width: 70%;
+  }
+
+  #portfolio .morepage .more_cont h1 strong {
+    font-size: .9em;
+  }
+
+  #portfolio .morepage .more_cont .arrangement {
+    font-size: .7em;
+  }
+
+  /* contact */
+  #contact .contact_title {
+    font-size: 2.8em;
+  }
+
+  #contact .contact_story p strong{
+  	font-size: .93em;
+  }
+
+  #contact .contact_story p span{
+    font-size: .75em
+  }
+
+  #contact .contact_container {
+  	flex-direction: column;
+  }
+
+  #contact .contact_contents {
+    width: 300px;
+    height: 180px;
+    margin: 70px 50px 70px 50px;
+  }
+
+  #contact .contact_contents h2 {
+    font-size: 1.6em;
+  }
+
+  #contact .contact_contents h4 {
+    font-size: 1em;
+  }
+
+  /* footer */
+  #footer .footer_img {
+    width: 17px;
+    height: 17px;
+    margin: 20px 10px 20px 10px;
+    padding: 5px;
+  }
+
+  #footer .footer_img img {
+    width: 17px;
+    height: 17px;
+  }
+
+  #footer p {
+    font-size: .73em;
+    margin: 0 0 0 30px;
+  }
+}
+
 /* media for less than 600 screen */
 @media only screen and (max-width: 600px){
   * {
