@@ -1,3 +1,197 @@
+/* media for less than 1200 screen */
+@media only screen and (max-width: 1280px){
+  * {
+      padding: 0;
+  }
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+  #load img {
+    left: 45%;
+    top: 40%
+  }
+
+  #back-top {
+    padding: 10px 12px 10px 12px;
+    margin: 10px;
+  	font-size: .8em;
+  }
+
+  #back-top span {
+  	font-size: .6em;
+  	font-weight: 400;
+  }
+
+  #home .main_logo {
+    width: 45%;
+  }
+
+  #home .main_logo img {
+    width: 130px;
+    height: 50px;
+  }
+
+  #home .menu_bar li a {
+    font-size: .9em;
+  }
+
+  #home .menu-fixed img {
+    width: 100px;
+    height: 37px;
+  }
+
+  #home .main_container {
+    width: 80%;
+  }
+
+  #home .introducing .intro {
+    font-size: 1.2em;
+  }
+
+  #home .introducing p {
+    font-size: 2em;
+  }
+
+  #home .introducing_img img {
+    width: 230px;
+    height: 230px;
+  }
+
+  #home .hamburger-menu {
+    display: none;
+  }
+
+  /* about */
+  #about .ab_left {
+    width: 100%;
+    text-align: center;
+    padding: 80px 0 0 0;
+  }
+
+  #about .ab_right {
+    width: 100%;
+    text-align: center;
+    padding: 80px 0 0 0;
+  }
+
+  #about .title {
+    font-size: 3.5em;
+  }
+
+  #about p {
+    line-height: 2.8em;
+    font-size: .7em;
+  }
+
+  /* Certificate */
+  #certificate .ableline-panel .ableline-content h4 {
+    font-size: .9em;
+  }
+
+  /* Portfolio */
+  #portfolio .port_title {
+    font-size: 3.3em;
+  }
+
+  #portfolio .swiper-contents {
+    padding: 0;
+  }
+
+  #portfolio .swiper-container {
+    width: 100%;
+    height: 42em;
+  }
+
+  #portfolio .swiper-slide h1 {
+  	font-size: 1.7em;
+  }
+
+  #portfolio .swiper-slide h3 {
+  	font-size: 1em;
+  }
+
+  #portfolio .swiper-slide img {
+  	width: 400px;
+  	height: 280px;
+  }
+
+  /* View more */
+  #portfolio .morepage .more_cont {
+    width: 95%;
+  }
+
+  #portfolio .morepage .more_cont p {
+    width: 80%;
+    font-size: .8em;
+  }
+
+  #portfolio .morepage .more_cont p:nth-child(3)+a {
+    font-size: .8em;
+  }
+
+  #portfolio .morepage .more_cont h4, .morepage01 .more_cont span, .morepage02 .more_cont span, .morepage03 .more_cont span, .morepage04 .more_cont span {
+    font-size: .7em;
+  }
+
+  #portfolio .morepage .more_cont .mobile_img img {
+    width: 70%;
+  }
+
+  #portfolio .morepage .more_cont h1 strong {
+    font-size: .9em;
+  }
+
+  #portfolio .morepage .more_cont .arrangement {
+    font-size: .7em;
+  }
+
+  /* contact */
+  #contact .contact_title {
+    font-size: 3.3em;
+  }
+
+  #contact .contact_story p strong{
+  	font-size: 1em;
+  }
+
+  #contact .contact_story p span{
+    font-size: .8em
+  }
+
+  #contact .contact_contents {
+    width: 180px;
+    margin: 70px 30px 70px 30px;
+  }
+
+  #contact .contact_contents h2 {
+    font-size: 1.3em;
+  }
+
+  #contact .contact_contents h4 {
+    font-size: .9em;
+  }
+
+  /* footer */
+  #footer .footer_img {
+    width: 17px;
+    height: 17px;
+    margin: 20px 10px 20px 10px;
+    padding: 5px;
+  }
+
+  #footer .footer_img img {
+    width: 17px;
+    height: 17px;
+  }
+
+  #footer p {
+    font-size: .9em;
+    margin: 0 0 0 150px;
+  }
+}
+
 /* media for less than 900 screen */
 @media only screen and (max-width: 900px){
   * {
