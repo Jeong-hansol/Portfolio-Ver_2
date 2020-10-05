@@ -41,6 +41,22 @@ $backToTop.on('click', function(e) {
 });
 
 
+// Mobile menu
+(function () {
+	$('.hamburger-menu').on('click', function() {
+		$('.bar').toggleClass('animate');
+    var mobileNav = $('.mobile-nav');
+    mobileNav.toggleClass('hide show');
+	})
+})();
+
+$('.mobile-nav>ul>li>a').click(function(){
+  $('.bar').toggleClass('animate');
+  var mobileNav = $('.mobile-nav');
+  mobileNav.toggleClass('hide show');
+});
+
+
 // 메뉴바 고정
 $(document).ready(function() {
    		var menu_offset = $('nav').offset();
