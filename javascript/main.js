@@ -107,6 +107,11 @@ $(".pulse-button.btn.btn4").click(function (evt) {
     $(".morepage04").fadeIn();
 });
 
+$('.pulse-button.btn.btn5').click(function (evt) {
+    evt.preventDefault();
+    $(".morepage05").fadeIn();
+});
+
 $(".close,.morepage").click(function () {
     $(".morepage").fadeOut();
 });
