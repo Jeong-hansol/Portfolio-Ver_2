@@ -105,6 +105,9 @@ a {
   background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	-moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
 }
 
 #home .main-content {
@@ -870,6 +873,14 @@ a {
   color: #fff;
 }
 
+#portfolio .morepage05 .more_cont span {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 20px;
+  background-color: #37302f;
+  color: #fff;
+}
+
 #portfolio .morepage01 .more_cont a {
   background-color: #fbb6ce;
   margin-bottom: 50px;
@@ -909,6 +920,16 @@ a {
 
 #portfolio .morepage04 .more_cont p strong {
   background-color: #80ddff;
+}
+
+#portfolio .morepage05 .more_cont a {
+  background-color: #37302f;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+#portfolio .morepage05 .more_cont p strong {
+  background-color: #9f8d8a;
 }
 
 #portfolio .morepage .more_cont h5 {
