@@ -1,4 +1,4 @@
-/* media for less than 1200 screen */
+/* media for less than 1280 screen */
 @media only screen and (max-width: 1280px){
   * {
       padding: 0;
@@ -487,11 +487,16 @@
   }
 
   #home .introducing p {
-    font-size: 2em;
+    font-size: 1.7em;
+    line-height: 1.4em;
   }
 
   #home .introducing .inbtn {
     margin: 0 auto;
+  }
+
+  #home .hamburger-menu {
+    display: block;
   }
 
   /* about */
@@ -645,6 +650,20 @@
 
   #contact .contact_container {
   	flex-direction: column;
+  }
+
+  #contact .contact_contents {
+    width: 300px;
+    height: 180px;
+    margin: 70px 50px 70px 50px;
+  }
+
+  #contact .contact_contents h2 {
+    font-size: 1.6em;
+  }
+
+  #contact .contact_contents h4 {
+    font-size: 1em;
   }
 
   /* footer */
