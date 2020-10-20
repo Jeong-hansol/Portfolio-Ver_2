@@ -127,6 +127,10 @@
     font-size: .8em;
   }
 
+  #portfolio .morepage .more_cont p img {
+    width: 70%;
+  }
+
   #portfolio .morepage .more_cont p:nth-child(3)+a {
     font-size: .8em;
   }
@@ -136,7 +140,7 @@
   }
 
   #portfolio .morepage .more_cont .mobile_img img {
-    width: 70%;
+    width: 50%;
   }
 
   #portfolio .morepage .more_cont h1 strong {
